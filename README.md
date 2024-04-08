@@ -11,7 +11,7 @@ BEK Case - Frontend
 
 
   <p align="center">
-· <a  href="/">Live Adresi Linki</a>
+· <a  href="https://bek-case.netlify.app/">Live Adresi Linki</a>
   </p>
 
 ## 📖 Hakkında
