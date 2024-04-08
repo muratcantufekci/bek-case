@@ -1,0 +1,11 @@
+.container {
+    @apply flex items-center justify-center h-[46vh] flex-col md:h-[64vh] lg:h-[74vh] xl:h-[63vh];
+}
+
+.title {
+    @apply text-black text-center text-2xl font-bold mb-5
+}
+
+.description {
+    @apply text-[rgba(34,34,34,0.50)] text-center text-lg font-semibold leading-6
+}

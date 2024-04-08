@@ -1,0 +1,39 @@
+.button {
+    @apply px-4 py-2 rounded flex items-center justify-center gap-x-2 font-bold text-base border-none;
+}
+
+.primary {
+    @apply bg-primary-default text-white;
+
+    &:hover {
+        @apply bg-primary-hover;
+    }
+}
+
+.secondary {
+    @apply bg-white text-black;
+
+    &:hover {
+        @apply bg-[#D1D1D1]
+    }
+}
+
+.black {
+    @apply bg-black text-white border border-solid border-[#DDDCDC] #{!important};
+
+    &:hover {
+        @apply bg-[#252424]
+    }
+}
+
+.green {
+    @apply bg-green-default text-white;
+}
+
+.white {
+    @apply border border-solid border-[#DDD] bg-white text-[#080808];
+}
+
+.dark {
+    @apply rounded border border-solid border-[rgba(255,255,255,0.08)] bg-dark-default text-white;
+}

@@ -1,0 +1,31 @@
+.wrapper {
+    @apply shadow-[0px_-4px_36px_0px_rgba(0,0,0,0.02)] bg-white;
+}
+
+.container {
+    @apply py-5 px-4 flex flex-col items-center justify-between gap-3 lg:px-0 md:flex-row md:gap-0;
+
+    p {
+        @apply text-gray-base font-medium text-xs text-center md:text-start;
+    }
+
+    a {
+        @apply text-black underline font-semibold;
+    }
+
+    span {
+        @apply h-1 w-1 bg-gray-light inline-block rounded-full;
+    }
+}
+
+.left {
+    @apply md:w-1/2 lg:w-auto;
+}
+
+.right {
+    @apply flex items-center gap-2;
+
+    a {
+        @apply no-underline text-[#4D4D4D] text-sm font-medium leading-7;
+    }
+}

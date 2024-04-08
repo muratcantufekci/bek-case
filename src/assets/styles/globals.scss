@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+    
+
+@layer base {
+
+    html, body {
+        @apply h-full w-full font-mulish
+    }
+
+    body {
+        @apply overflow-x-hidden bg-[#f4f4f4] ;
+    }
+
+    h2 {
+        @apply my-6 leading-7 text-lg text-black font-extrabold text-center md:text-xl ;
+      }
+      
+      p {
+        @apply text-base font-medium text-gray-50
+      }
+}

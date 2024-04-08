@@ -1,0 +1,14 @@
+.modal {
+  @apply flex items-center justify-center h-full fixed transition-opacity duration-[0.2s] ease-[ease-out] w-full z-[255] inset-0 bg-black-bg-default;
+}
+
+.close {
+  @apply text-gray-800 absolute top-[20px] right-[20px] cursor-pointer w-[18px] h-[18px];
+
+  svg {
+    @apply w-full h-full;
+  }
+}
+
+
+

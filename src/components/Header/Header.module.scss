@@ -1,0 +1,24 @@
+.header {
+  @apply bg-white;
+}
+
+.container {
+  @apply flex items-center justify-between py-4 gap-3;
+}
+
+.actions {
+    @apply flex items-center md:justify-center gap-x-3 md:gap-x-4;
+}
+
+.logo {
+  @apply w-[50px] h-[50px] ;
+}
+
+.link {
+  @apply text-lg font-semibold
+}
+
+.point {
+  @apply text-lg font-semibold text-blue-800
+}
+

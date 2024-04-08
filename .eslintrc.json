@@ -1,0 +1,45 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "next", "prettier", "next/core-web-vitals"],
+  "plugins": ["simple-import-sort"],
+  "rules": {
+    "simple-import-sort/imports": "warn",
+    "simple-import-sort/exports": "warn",
+    "react-hooks/exhaustive-deps": "off",
+    "no-unused-vars": "warn",
+    "import/no-anonymous-default-export": "off",
+    "react-hooks/rules-of-hooks": "off",
+    "no-undef":"off"
+  },
+  "overrides": [
+    {
+      "files": ["*.js", "*.jsx"],
+      "rules": {
+        "simple-import-sort/imports": [
+          "error",
+          {
+            "groups": [
+              ["^react"],
+              ["^next"],
+              ["^@?\\w"],
+              ["^(@/assets/images)(/.*|$)"],
+              ["^(@/components/icons)(/.*|$)"],
+              ["^(@/hooks)(/.*|$)"],
+              ["^(@/services)(/.*|$)"],
+              ["^(@/store)(/.*|$)"],
+              ["^(@/components)(/.*|$)"],
+              ["^\\u0000"],
+              ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
+              ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
+              ["^.+\\.?(scss)$"]
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

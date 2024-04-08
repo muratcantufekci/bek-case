@@ -1,0 +1,12 @@
+.wrapper {
+  @apply py-5;
+
+  .img {
+    @apply w-full h-[400px] object-cover;
+  }
+}
+
+.products {
+  @apply grid grid-cols-[1fr_1fr] gap-5 md:grid-cols-[1fr_1fr_1fr] lg:grid-cols-[1fr_1fr_1fr_1fr] xl:grid-cols-[1fr_1fr_1fr_1fr_1fr];
+}
+
